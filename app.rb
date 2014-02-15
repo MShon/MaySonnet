@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/hi' do
-  "Hello! Bugs"
+get '/Peanut' do
+  "Hello! There are bugs"
 end
