@@ -4,9 +4,9 @@ get '/Peanut' do
   "Hello! There are bugs" 
 end
 
-count = 0
+count = 1
 
 get '/count' do
-  count = count + 1
+  count = count * 14
   "I have been called #{count} times."
 end
